@@ -1,0 +1,202 @@
+a:link { color: white;} /* link da visitare */
+a:visited { text-decoration: none; } /* link visitato */
+a:hover { background: orange;  } /* link al passaggio del mouse */
+
+.home {
+font-family: Viner Hand ITC; 
+font-size: 44px;
+font-weight: bold;
+text-align: center;
+letter-spacing: 2px;
+filter: glow(color: gray, strength: 7);
+width: 100%;
+}
+
+.titolo {
+font-family: Arial, Helvetica; 
+font-size: 36px;
+font-weight: bold;
+text-align: center;
+color: #FFFFFF;
+}
+
+.titolo2 {
+font-family: ComicSansMS; 
+font-size: 36px;
+font-weight: bold;
+text-align: center;
+color: red;
+}
+
+.stile {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px; 
+font-style: italic; 
+font-weight: bold; 
+text-align: center; 
+color: gray;
+}
+
+.news {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 24px;  
+font-weight: bold; 
+text-align: center; 
+color: white;
+}
+
+.lista {
+font-family: Arial,Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic; 
+font-weight: bold;  
+text-align: center; 
+color: gray;
+}
+
+.elementiTabella {
+font-family: Arial,Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic; 
+font-weight: bold;  
+text-align: center; 
+color: black;
+}
+
+
+.stilerosso {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px; 
+font-style: italic; 
+font-weight: bold; 
+text-align: center; 
+color: red;
+}
+
+.stileblu {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;  
+font-weight: bold; 
+text-align: center; 
+color: #0d25FF;
+}
+
+.stilepiccolo {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px; 
+font-style: italic; 
+font-weight: bold; 
+text-align: center; 
+color: white;
+}
+
+.dati {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px; 
+font-style: italic; 
+font-weight: bold; 
+text-align: center; 
+color: #FFFFFF ;
+}
+
+.fire {
+color: red;
+font-family: Arial;
+font-size: 20px; 
+text-align: center;
+letter-spacing: 1px;
+filter: glow(color: #800000, strength: 5);
+width: 100%;
+}
+
+.fire2 {
+color: cyan;
+font-family: Arial;
+font-size: 20px; 
+text-align: center;
+letter-spacing: 1px;
+filter: glow(color: #304070, strength: 5);
+width: 100%;
+}
+
+div.T1 {
+float: left;
+width: 10%;
+text-align: center;
+}
+div.T2 {
+float: left;
+width: 20%;
+text-align: center;
+}
+div.T3 {
+float: left;
+width: 30%;
+text-align: center;
+}
+div.T4 {
+float: left;
+width: 40%;
+text-align: center;
+}
+div.T5 {
+float: left;
+width: 50%;
+text-align: center;
+}
+div.T6 {
+float: left;
+width: 60%;
+text-align: center;
+}
+div.T7 {
+float: left;
+width: 70%;
+text-align: center;
+}
+div.T8 {
+float: left;
+width: 80%;
+text-align: center;
+}
+div.T9 {
+float: left;
+width: 90%;
+text-align: center;
+}
+
+
+
+/* Definisce lo stile di ogni singolo layer nelle sue parti più spicciole (INUTILE) */
+div.menu {
+background: #EEEEEE;
+font-size: 10px;
+font-family: Verdana;
+text-align: center;
+}
+
+
+
+
+/* Definisce lo stile dei link al caricamento */
+a.menu {
+background: white;
+color: #000000;
+padding: 1px;
+/* Permette di ottenere l'effetto anche se il mouse non è sul testo */
+position: Relative;
+font-size: 18px;
+text-decoration: None;
+/* Imposta il contenuto del layer per la larghezza del layer stesso */
+display: Block;
+}
+/* Definisce lo stile dei link al passaggio del mouse (modificati solo i colori) */
+a:hover.menu {
+background: blue;
+color: aqua;
+padding: 1px;
+position: Relative;
+font-size: 18px;
+text-decoration: None;
+display: Block;
+}

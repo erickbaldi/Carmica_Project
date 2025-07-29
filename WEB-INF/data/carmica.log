@@ -1,0 +1,5 @@
+/*C2*/SET SCHEMA PUBLIC
+CONNECT USER SA
+create table UTENTI (\u000a NOME varchar,\u000a COGNOME varchar,\u000a VIA varchar,\u000a TELEFONO varchar,\u000a DATA_NASCITA varchar,\u000a LINGUA varchar,\u000a CD_USER varchar,\u000a PWD varchar,\u000a TIMESTAMP datetime)
+create table CATALOGO (\u000a NOME varchar,\u000a DESCRIZIONE varchar,\u000a PREZZO varchar,\u000a TIPO char\u000a )
+create table ORDINI (\u000a CONTATORE int,\u000a CD_USER varchar,\u000a FLAG char,\u000a SCELTA varchar,\u000a CANZONI varchar,\u000a PREZZO float,\u000a QUANTITA int,\u000a TIMESTAMP datetime)\u000a 
